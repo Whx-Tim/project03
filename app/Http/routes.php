@@ -27,4 +27,8 @@ Route::group(['middleware' => 'web' ], function () {
     Route::get('cooperatives','HomeController@showCooperatives');
     Route::get('publish','PublishController@publishInformation');
     Route::post('publish','PublishController@storeProduct');
+
+    Route::get('test', function () {
+    	return "Testing...";
+    });
 });
