@@ -29,6 +29,6 @@ Route::group(['middleware' => 'web' ], function () {
     Route::post('publish','PublishController@storeProduct');
 
     Route::get('test', function () {
-    	return "Tetsing...";
+    	return "Testing...";
     });
 });
